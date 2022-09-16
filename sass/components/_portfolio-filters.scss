@@ -1,16 +1,13 @@
-.head-border {
-  border-bottom: 1px solid var(--head-border);
-}
-.filters-title {
+.filters__title {
   display: none;
 }
-.filters {
+.filters__container {
   list-style: none;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-.filters-btn {
+.filters__btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -34,6 +31,6 @@
     border-radius: 4px;
   }
 }
-.filters-item:not(:last-of-type) {
+.filters__item:not(:last-of-type) {
   margin-right: 8px;
 }
