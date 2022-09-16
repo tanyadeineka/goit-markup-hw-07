@@ -1,0 +1,35 @@
+.features__title {
+  display: none;
+}
+.features__list {
+  list-style: none;
+  display: flex;
+}
+.features__item:not(:last-of-type) {
+  margin-right: 30px;
+}
+.features__subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.features__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.features__icon {
+  height: 120px;
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bcg-feature);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
